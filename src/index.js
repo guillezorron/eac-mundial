@@ -1,7 +1,7 @@
-import { express, Router } from 'express'
+import express from 'express'
 import cors from 'cors';
-import { login } from './controllers/session-controller';
-// import { Router, Request, Response } from "express";
+import { login } from './controllers/sessions-controller.js';
+import { Router } from "express";
 
 const app = express()
 const routes = Router();
